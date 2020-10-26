@@ -1,0 +1,16 @@
+$default-font: "Montserrat";
+$content-width: 1141px;
+$heightHeader: 0;
+$heightFooter: 68px;
+$minHeightMain: calc(100vh - (#{$heightHeader} + #{$heightFooter}));
+$mainColor: #fff;
+$mainWeight: 700;
+$mainSize: 32px;
+:root {
+    --ui-color: #f7b600;
+    --bg-color: #333333;
+    --head-color: #fff;
+
+    --info-size-text: 12px;
+    --title-size-text: 48px;
+}

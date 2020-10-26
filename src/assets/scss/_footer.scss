@@ -1,0 +1,14 @@
+.footer {
+    background-color: #1a1a1a;
+    padding: 22px 0;
+    font-size: var(--info-size-text);
+    font-weight: 400;
+    @media (max-width: 900px) {
+        padding: 16px 0;
+    }
+    &__text {
+        color: #fff;
+        text-align: center;
+        line-height: 15px;
+    }
+}
